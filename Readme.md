@@ -15,6 +15,19 @@
 http://localhost:3000/
     
     
+<br/>
+
+### 04 - Angular Front-end Setup
+
+https://angular.io/docs/ts/latest/cli-quickstart.html
+
+
+    $ cd /project/
+    $ npm install --save-dev @angular/cli
+    $ cd frontend/
+    $ ng serve --host 0.0.0.0 --port 8080
+    
+    
 ___
 
 **Marley**
