@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "<br/>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^1.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marley-nodejs@bitbucket.org/marley-nodejs/building-an-angular-application-with-node-and-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/marley-nodejs/building-an-angular-application-with-node-and-token#readme"
+}

@@ -38,6 +38,24 @@ http://localhost:3000/posts
 
 ![Application](/img/05-01.png?raw=true)
 
+
+<br/>
+
+### 06 - Getting Data with Angular
+
+    $ cd backend/
+    $ npm install --save cors
+    $ nodemon server.js
+    
+    $ cd frontend/
+    $ ng serve --host 0.0.0.0 --port 8080
+    
+
+![Application](/img/06-01.png?raw=true)
+
+
+
+
 ___
 
 **Marley**
