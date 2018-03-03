@@ -27,7 +27,17 @@ https://angular.io/docs/ts/latest/cli-quickstart.html
     $ cd frontend/
     $ ng serve --host 0.0.0.0 --port 8080
     
+<br/>
+
+### 05 - Sending Data with Node
     
+    $ cd backend/
+    $ nodemon server.js
+    
+http://localhost:3000/posts    
+
+![Application](/img/05-01.png?raw=true)
+
 ___
 
 **Marley**
