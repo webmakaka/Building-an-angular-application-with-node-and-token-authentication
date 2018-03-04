@@ -89,6 +89,24 @@ Postman
 
 ![Application](/img/09-01.png?raw=true)
 
+<br/>
+
+### 10 - Create User with Mongo
+
+https://mlab.com
+
+    $ cd backend/
+    $ npm install --save mongoose
+
+
+![Application](/img/10-01.png?raw=true)
+
+![Application](/img/10-02.png?raw=true)
+
+
+<br/>
+
+### 11 - Creating a Nav Bar
 
 
 
