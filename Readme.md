@@ -54,6 +54,24 @@ http://localhost:3000/posts
 ![Application](/img/06-01.png?raw=true)
 
 
+<br/>
+
+### 07 - Setting up Angular Materials
+
+https://material.angular.io/
+
+
+    $ cd frontend/
+    $ npm install --save @angular/material @angular/cdk
+
+
+![Application](/img/07-01.png?raw=true)
+
+
+<br/>
+
+### 08 - Displaying Messages
+
 
 
 ___
