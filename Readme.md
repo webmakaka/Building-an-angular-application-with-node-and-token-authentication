@@ -111,6 +111,13 @@ https://mlab.com
 ![Application](/img/11-01.png?raw=true)
 
 
+<br/>
+
+### 12 - Setting up Routes with the Angular Router
+
+![Application](/img/12-01.png?raw=true)
+
+
 
 
 

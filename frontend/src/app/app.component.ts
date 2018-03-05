@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ApiService} from './api.service';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,9 @@ import { ApiService} from './api.service';
     <mat-toolbar>
         PSSocial
         <span style="flex: 1 1 auto"></span>
-        <button md-button>Register</button>
+        <button md-button routerLink="/register">Register</button>
     </mat-toolbar>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })
