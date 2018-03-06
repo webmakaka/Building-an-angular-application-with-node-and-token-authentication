@@ -110,13 +110,11 @@ https://mlab.com
 
 ![Application](/img/11-01.png?raw=true)
 
-
 <br/>
 
 ### 12 - Setting up Routes with the Angular Router
 
 ![Application](/img/12-01.png?raw=true)
-
 
 <br/>
 
@@ -124,7 +122,11 @@ https://mlab.com
 
 ![Application](/img/13-01.png?raw=true)
 
+<br/>
 
+### 14 - Binding to the Register Inputs and Button
+
+![Application](/img/14-01.png?raw=true)
 
 ___
 

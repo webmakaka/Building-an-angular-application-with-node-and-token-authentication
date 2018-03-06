@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatCardModule, MatToolbarModule, MatInputModule } from '@angular/material';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ApiService} from './api.service';
@@ -23,6 +24,7 @@ const routes = [
   imports: [
     BrowserModule,
     HttpModule, 
+    FormsModule,
     MatButtonModule, 
     MatCardModule, 
     MatToolbarModule, 
