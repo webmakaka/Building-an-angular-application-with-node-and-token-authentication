@@ -128,6 +128,15 @@ https://mlab.com
 
 ![Application](/img/14-01.png?raw=true)
 
+<br/>
+
+### 15 - Developing a Front-end Register Service
+
+![Application](/img/15-01.png?raw=true)
+
+![Application](/img/15-02.png?raw=true)
+
+
 ___
 
 **Marley**
