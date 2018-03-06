@@ -118,6 +118,11 @@ https://mlab.com
 ![Application](/img/12-01.png?raw=true)
 
 
+<br/>
+
+### 13 - Developing the Register View
+
+![Application](/img/13-01.png?raw=true)
 
 
 
