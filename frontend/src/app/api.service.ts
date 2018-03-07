@@ -19,4 +19,8 @@ export class ApiService {
     sendUserRegistration(registerData){
         this.http.post('http://localhost:3000/register', registerData).subscribe(res => {});
     }
+    
+    loginUserRegistration(loginData){
+        // TODO: something
+    }
 }
