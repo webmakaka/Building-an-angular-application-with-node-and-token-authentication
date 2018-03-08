@@ -144,6 +144,18 @@ https://mlab.com
 ![Application](/img/16-01.png?raw=true)
 
 
+<br/>
+
+### 17 - Generating Tokens in a Back-end Login Service
+
+    $ cd backend/
+    $ npm install --save jwt-simple
+
+![Application](/img/17-01.png?raw=true)
+
+![Application](/img/17-02.png?raw=true)
+
+
 ___
 
 **Marley**
