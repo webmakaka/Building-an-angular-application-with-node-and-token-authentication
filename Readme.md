@@ -172,6 +172,16 @@ http://localhost:3000/users/
 
 ![Application](/img/19-01.png?raw=true)
 
+<br/>
+
+### 20 - Displaying the Users in a Front-end Component
+
+http://localhost/users
+
+![Application](/img/20-01.png?raw=true)
+
+
+
 
 ___
 
