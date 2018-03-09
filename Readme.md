@@ -181,7 +181,11 @@ http://localhost/users
 ![Application](/img/20-01.png?raw=true)
 
 
+<br/>
 
+### 21 - Using the Routerlink Directive to Link with Parameters
+
+![Application](/img/21-01.png?raw=true)
 
 ___
 
