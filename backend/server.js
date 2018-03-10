@@ -7,6 +7,8 @@ const app = express();
 
 const User = require('./models/User.js');
 
+mongoose.Promise = Promise;
+
 const posts = [
     {message: 'hello'},
     {message: 'hi'}
@@ -28,6 +30,18 @@ app.get('/users', async (req, res) => {
         console.error(error);
         res.sendStatus(500);
     }
+});
+
+
+app.get('/profile/:id', async (req, res) => {
+    
+    try {
+        const user = await User.findById(req.params.id, '-password -__v');
+        res.send(user);
+    } catch (error){
+        console.error(error);
+        res.sendStatus(500);
+    }    
 });
 
 app.post('/register', (req, res) => {

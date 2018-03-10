@@ -187,6 +187,16 @@ http://localhost/users
 
 ![Application](/img/21-01.png?raw=true)
 
+<br/>
+
+### 22 - Developing a Profile Service Endpoint
+
+http://localhost:3000/profile/5a9c3229fb8aec01fe178862
+
+![Application](/img/22-01.png?raw=true)
+
+
+
 ___
 
 **Marley**
