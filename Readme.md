@@ -244,6 +244,11 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/29-02.png?raw=true)
 
+<br/>
+
+### 30 - Creating a Message Post Component
+
+![Application](/img/30-01.png?raw=true)
 
 
 
