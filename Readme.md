@@ -259,6 +259,13 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/31-01.png?raw=true)
 
+<br/>
+
+### 32 - Associating a User with Posts
+
+![Application](/img/32-01.png?raw=true)
+
+
 ___
 
 **Marley**

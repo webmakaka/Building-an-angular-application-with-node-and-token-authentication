@@ -1,5 +1,9 @@
 const mongoose = require('mongoose');
 
 module.exports = mongoose.model('Post', {
-    msg: String
+    msg: String,
+    author: {
+        type: mongoose.Schema.Types.ObjectId, 
+        ref: 'User'
+    }
 });

@@ -25,7 +25,10 @@ app.get('/posts', (req, res) => {
 });
 
 app.post('/post', (req, res) => {
-    const post = new Post(req.body);
+    
+    const postData = req.body;
+    postData.author = '5aa432751ac8090630fc9e23';
+    const post = new Post(postData);
     
     post.save((err, result) =>{
         if(err){
