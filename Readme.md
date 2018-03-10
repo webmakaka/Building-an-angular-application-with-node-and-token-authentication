@@ -236,6 +236,13 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ### 28 - Creating an Auth Router
 
+<br/>
+
+### 29 - Creating a Message Post Endpoint
+
+![Application](/img/29-01.png?raw=true)
+
+![Application](/img/29-02.png?raw=true)
 
 
 

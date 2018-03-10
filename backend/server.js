@@ -7,6 +7,7 @@ const app = express();
 
 
 const User = require('./models/User.js');
+const Post = require('./models/Post.js');
 const auth = require('./auth.js');
 
 mongoose.Promise = Promise;
@@ -21,6 +22,21 @@ app.use(bodyParser.json());
 
 app.get('/posts', (req, res) => {
     res.send(posts);
+});
+
+app.post('/post', (req, res) => {
+    const post = new Post(req.body);
+    
+    post.save((err, result) =>{
+        if(err){
+            console.error('saving post error ' + err);
+            return res.status(500).send({
+                message: 'saving post error'
+            });
+        }
+        
+        res.sendStatus(200);
+    });
 });
 
 app.get('/users', async (req, res) => {
