@@ -219,7 +219,6 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/25-04.png?raw=true)
 
-
 <br/>
 
 ### 26 - Hashing the Password with bcyrpt
@@ -229,6 +228,11 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
     
 ![Application](/img/26-01.png?raw=true)
     
+<br/>
+
+### 27 - Updating the User Component
+
+
 
 ___
 
