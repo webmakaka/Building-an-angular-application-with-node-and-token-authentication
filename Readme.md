@@ -201,6 +201,25 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/23-01.png?raw=true)
 
+<br/>
+
+### 24 - Displaying Profile Data from a Front-end Service
+
+
+
+<br/>
+
+### 25 - Improving Your User Model
+
+![Application](/img/25-01.png?raw=true)
+
+![Application](/img/25-02.png?raw=true)
+
+![Application](/img/25-03.png?raw=true)
+
+![Application](/img/25-04.png?raw=true)
+
+
 ___
 
 **Marley**

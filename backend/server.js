@@ -36,7 +36,7 @@ app.get('/users', async (req, res) => {
 app.get('/profile/:id', async (req, res) => {
     
     try {
-        const user = await User.findById(req.params.id, '-password -__v');
+        const user = await User.findById(req.params.id, '-password -__v');        
         res.send(user);
     } catch (error){
         console.error(error);
@@ -46,9 +46,7 @@ app.get('/profile/:id', async (req, res) => {
 
 app.post('/register', (req, res) => {
     const userData = req.body;
-    
     const user = new User(userData);
-
     user.save((err, result) =>{
         if(err){
             console.log('saving user error ' + err);
@@ -80,8 +78,6 @@ app.post('/login', async (req, res) => {
     const payload = {};
     
     const token = jwt.encode(payload, '123')
-    
-    console.log(token);
     res.status(200).send({
         token
     });
