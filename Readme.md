@@ -232,6 +232,12 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ### 27 - Updating the User Component
 
+<br/>
+
+### 28 - Creating an Auth Router
+
+
+
 
 
 ___

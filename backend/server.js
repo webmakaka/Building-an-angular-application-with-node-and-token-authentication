@@ -2,11 +2,12 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const jwt = require('jwt-simple');
+
 const app = express();
-const bcrypt = require('bcrypt-nodejs');
+
 
 const User = require('./models/User.js');
+const auth = require('./auth.js');
 
 mongoose.Promise = Promise;
 
@@ -45,47 +46,6 @@ app.get('/profile/:id', async (req, res) => {
     }    
 });
 
-app.post('/register', (req, res) => {
-    const userData = req.body;
-    const user = new User(userData);
-    user.save((err, result) =>{
-        if(err){
-            console.log('saving user error ' + err);
-        }
-        
-        res.sendStatus(200);
-    });
-});
-
-app.post('/login', async (req, res) => {
-    const loginData = req.body;
-    
-    const user = await User.findOne({
-        email: loginData.email
-    });
-    
-    if(!user){ 
-        return res.status(401).send({
-            message: 'Email or Password invalid'
-        });
-    }
-    
-    bcrypt.compare(loginData.password, user.password, (err, isMatch) => {
-        if(!isMatch){
-            return res.status(401).send({
-                message: 'Email or Password invalid'
-            });
-            
-            const payload = {};
-            
-            const token = jwt.encode(payload, '123')
-            res.status(200).send({
-                token
-            });
-        }
-    });
-});
-
 mongoose.connect('mongodb://user:user1@ds255768.mlab.com:55768/building_angular_application_with_node_and_token_authentication', (err) => {
     if(err){
         console.log('error');
@@ -94,5 +54,7 @@ mongoose.connect('mongodb://user:user1@ds255768.mlab.com:55768/building_angular_
     console.log('conected to mongo');
         
 });
+
+app.use('/auth', auth);
 
 app.listen(3000);
