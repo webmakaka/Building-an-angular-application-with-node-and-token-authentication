@@ -274,6 +274,12 @@ http://localhost:3000/posts/5aa432751ac8090630fc9e23/
 ![Application](/img/33-01.png?raw=true)
 
 
+<br/>
+
+### 34 - Displaying a Users Message Posts
+
+![Application](/img/34-01.png?raw=true)
+
 
 ___
 

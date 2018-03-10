@@ -24,7 +24,7 @@ app.get('/posts/:id', async (req, res) => {
 app.post('/post', (req, res) => {
     
     const postData = req.body;
-    postData.author = '5aa432751ac8090630fc9e23';
+    postData.author = '5aa42a409fed9f047e1d2382';
     const post = new Post(postData);
     
     post.save((err, result) =>{
