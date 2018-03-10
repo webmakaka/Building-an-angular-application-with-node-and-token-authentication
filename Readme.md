@@ -281,6 +281,17 @@ http://localhost:3000/posts/5aa432751ac8090630fc9e23/
 ![Application](/img/34-01.png?raw=true)
 
 
+<br/>
+
+### 35 - Introducing Advanced Auth
+
+<br/>
+
+### 36 - Saving the User ID in the Token
+
+<br/>
+
+### 37 - Updating to Angular 4 HttpClient
 ___
 
 **Marley**

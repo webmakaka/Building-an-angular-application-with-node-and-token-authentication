@@ -36,7 +36,7 @@ router.post('/login', async (req, res) => {
                 });
             }
             
-            const payload = {};
+            const payload = { sub: user._id };
             
             const token = jwt.encode(payload, '123');
             
