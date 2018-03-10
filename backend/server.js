@@ -12,15 +12,12 @@ const auth = require('./auth.js');
 
 mongoose.Promise = Promise;
 
-const posts = [
-    {message: 'hello'},
-    {message: 'hi'}
-];
-
 app.use(cors());
 app.use(bodyParser.json());
 
-app.get('/posts', (req, res) => {
+app.get('/posts/:id', async (req, res) => {
+    const author = req.params.id;
+    const posts = await Post.find({author});
     res.send(posts);
 });
 

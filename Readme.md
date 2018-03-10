@@ -265,6 +265,15 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/32-01.png?raw=true)
 
+<br/>
+
+### 33 - Getting a Users Message Posts
+
+http://localhost:3000/posts/5aa432751ac8090630fc9e23/
+
+![Application](/img/33-01.png?raw=true)
+
+
 
 ___
 
