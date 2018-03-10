@@ -195,7 +195,11 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 
 ![Application](/img/22-01.png?raw=true)
 
+<br/>
 
+### 23 - Creating a Profile Component
+
+![Application](/img/23-01.png?raw=true)
 
 ___
 
