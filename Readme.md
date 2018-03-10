@@ -220,6 +220,16 @@ http://localhost:3000/profile/5a9c3229fb8aec01fe178862
 ![Application](/img/25-04.png?raw=true)
 
 
+<br/>
+
+### 26 - Hashing the Password with bcyrpt
+
+    $ cd backend/
+    $ npm install --save bcrypt-nodejs
+    
+![Application](/img/26-01.png?raw=true)
+    
+
 ___
 
 **Marley**
