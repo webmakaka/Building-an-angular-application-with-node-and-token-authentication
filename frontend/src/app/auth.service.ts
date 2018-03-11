@@ -18,6 +18,10 @@ export class AuthService {
     get isAuthenticated(){
         return !!localStorage.getItem(this.TOKEN_KEY);
     }
+    
+    logout(){
+        localStorage.removeItem(this.TOKEN_KEY);
+    }
         
     registerUser(registerData){
         this.http.post(this.path + '/register', registerData).subscribe(res => {});

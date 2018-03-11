@@ -329,6 +329,14 @@ Authorization token in the Request Headers
 
 ### 41 - Creating an Auth Check on the Frontend
 
+<br/>
+
+### 42 - Creating a Logout Button
+
+![Application](/img/42-01.png?raw=true)
+
+![Application](/img/42-02.png?raw=true)
+
 ___
 
 **Marley**
