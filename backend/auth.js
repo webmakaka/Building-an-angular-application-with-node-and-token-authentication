@@ -7,12 +7,13 @@ const router = express.Router();
 router.post('/register', (req, res) => {
         const userData = req.body;
         const user = new User(userData);
-        user.save((err, result) =>{
+        user.save((err, newUser) =>{
             if(err){
-                console.log('saving user error ' + err);
+                return res.status(500).send({
+                    message: 'Error saving user'
+                });
             }
-            
-            res.sendStatus(200);
+            createSendToken(res, newUser);
         });
 });
     
@@ -36,14 +37,15 @@ router.post('/login', async (req, res) => {
                 });
             }
             
-            const payload = { sub: user._id };
-            
-            const token = jwt.encode(payload, '123');
-            
-            res.status(200).send({token});
-            
+            createSendToken(res, user);
         });
 });
+
+function createSendToken(res, user){
+    const payload = { sub: user._id };
+    const token = jwt.encode(payload, '123');
+    res.status(200).send({token});
+}
 
 const auth = {
     router,

@@ -337,6 +337,11 @@ Authorization token in the Request Headers
 
 ![Application](/img/42-02.png?raw=true)
 
+<br/>
+
+### 43 - Authenticating After Registration
+
+
 ___
 
 **Marley**
