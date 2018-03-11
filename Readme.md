@@ -313,11 +313,13 @@ http://localhost:3000/posts/5aa432751ac8090630fc9e23/
 
 ### 38 - Implementing an Auth Token Interceptor
 
-Autthorization token in the Request Headers
+Authorization token in the Request Headers
 
 ![Application](/img/38-01.png?raw=true)
 
+<br/>
 
+### 39 - Getting Your Auth Token with AuthService
 
 
 ___
