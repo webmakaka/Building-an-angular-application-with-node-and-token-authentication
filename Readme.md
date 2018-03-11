@@ -325,6 +325,9 @@ Authorization token in the Request Headers
 
 ### 40 - Decoding the Auth Token
 
+<br/>
+
+### 41 - Creating an Auth Check on the Frontend
 
 ___
 
