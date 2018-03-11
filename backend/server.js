@@ -74,4 +74,4 @@ mongoose.connect('mongodb://user:user1@ds255768.mlab.com:55768/building_angular_
 
 app.use('/auth', auth.router);
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

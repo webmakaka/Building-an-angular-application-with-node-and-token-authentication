@@ -341,6 +341,22 @@ Authorization token in the Request Headers
 
 ### 43 - Authenticating After Registration
 
+<br/>
+
+### 44 - Publishing Angular with Amazon S3
+
+    $ cd frontend/
+    $ ng build --evn=prod
+    
+    copy content from build folder to prod host
+
+<br/>
+
+### 45 - Publishing Node with Heroku
+
+<br/>
+
+### 46 - Reviewing Your Accomplishments
 
 ___
 
