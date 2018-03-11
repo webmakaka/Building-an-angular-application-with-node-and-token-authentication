@@ -1,5 +1,21 @@
 # [Alexander Zanfir] Building an Angular Application with Node and Token Authentication [25.10.2017, ENG]
 
+
+<br/>
+
+Environment: 
+
+<a href="//jsdev.org/env/docker/run-container/linux/">Docker container for development</a>
+
+<br/>
+
+    $ node -v
+    v9.7.1
+
+    $ npm -v
+    5.6.0
+
+
 <br/>
 
 ### 03 - Architecture and Back-end Setup
@@ -292,6 +308,18 @@ http://localhost:3000/posts/5aa432751ac8090630fc9e23/
 <br/>
 
 ### 37 - Updating to Angular 4 HttpClient
+
+<br/>
+
+### 38 - Implementing an Auth Token Interceptor
+
+Autthorization token in the Request Headers
+
+![Application](/img/38-01.png?raw=true)
+
+
+
+
 ___
 
 **Marley**
