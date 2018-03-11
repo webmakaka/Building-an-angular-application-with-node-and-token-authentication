@@ -321,6 +321,10 @@ Authorization token in the Request Headers
 
 ### 39 - Getting Your Auth Token with AuthService
 
+<br/>
+
+### 40 - Decoding the Auth Token
+
 
 ___
 

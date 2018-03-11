@@ -4,11 +4,12 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 const app = express();
-
+const jwt = require('jwt-simple');
 
 const User = require('./models/User.js');
 const Post = require('./models/Post.js');
 const auth = require('./auth.js');
+
 
 mongoose.Promise = Promise;
 
@@ -21,10 +22,10 @@ app.get('/posts/:id', async (req, res) => {
     res.send(posts);
 });
 
-app.post('/post', (req, res) => {
+app.post('/post', auth.checkAuthenticated, (req, res) => {
     
     const postData = req.body;
-    postData.author = '5aa42a409fed9f047e1d2382';
+    postData.author = req.userId;
     const post = new Post(postData);
     
     post.save((err, result) =>{
@@ -71,6 +72,6 @@ mongoose.connect('mongodb://user:user1@ds255768.mlab.com:55768/building_angular_
         
 });
 
-app.use('/auth', auth);
+app.use('/auth', auth.router);
 
 app.listen(3000);
